@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+.more_title{height:45px;line-height:45px;background:#f2f2f2;}
+.more_title strong>a{color:#666;font-weight:700;line-height:20px;font-size:18px;}
+.more_title strong>a:hover{color:#e3393c;}
+.more_title span{font-family:simsun;line-height:45px;font-size:12px;color:#666;}
+.more_title span>a{font-family:simsun;line-height:45px;font-size:12px;color:#666;}
+.more_title span>a:hover{color:#e3393c;}
+
+.tab_main{height:628px;background:#f2f2f2;margin-bottom:10px;}
+.tab_main .inner{height:627px;background:#fff;}
+
+.tab_main .inner .preview{float:left;width:378px;position:relative;z-index:20;}
+.tab_main .inner #preview{width:350px;height:350px;margin:14px 0 14px 14px;position:relative;}
+.tab_main .inner #preview>img{width:350px;height:350px;}
+.tab_main .inner #preview>span{width:175px; height:175px; background:yellow; position:absolute; left:0px; top:0px; filter:alpha(opacity:30); opacity:0.3; border:1px solid black;display:none;cursor:move;}
+.tab_main .inner #preview_list{width:310;height:54px;padding: 0 20px 0 34px;position:relative;}
+.tab_main .inner #preview_list #spec_forward{width:14px;height:54px;position:absolute;top:0;left:14px;background:url(../images/newicon20140910.png) -56px -346px;}
+.tab_main .inner #preview_list #spec_forward:hover{background-position:-28px -346px;}
+.tab_main .inner #preview_list #spec_backward{width:14px;height:54px;position:absolute;top:0;right:5px;background:url(../images/newicon20140910.png) -70px -346px;}
+.tab_main .inner #preview_list #spec_backward:hover{background-position:-43px -346px;}
+.tab_main .inner #preview_list li{float:left;width:62px;height:54px;cursor:pointer;}
+.tab_main .inner #preview_list li img{display:block; vertical-align: middle;width:50px;height:50px;border:2px solid #fff;}
+.tab_main .inner #preview_list li.hover img{border:2px solid #e4393c;}
+.tab_main .inner .preview_bottom{padding:24px 40px 0 34px;height:14px;}
+.tab_main .inner .preview_bottom a{float:right;font-size:12px;line-height:14px;color:#666;display:block;padding-left:18px;position:relative;}
+.tab_main .inner .preview_bottom a.frist{padding-right:17px;}
+.tab_main .inner .preview_bottom a em{font-style:normal;}
+.tab_main .inner .preview_bottom a em:hover{color:#e4393c;}
+.tab_main .inner .preview_bottom a .fenxiang{display:block;width:14px;height:14px;position:absolute;left:0;top:0px;background:url(../images/newicon20140910.png) -177px -296px;}
+.tab_main .inner .preview_bottom a .guanzu{display:block;width:14px;height:14px;position:absolute;left:0;top:0px;background:url(../images/newicon20140910.png) -162px -296px;}
+.tab_main .inner #amplification{width:400px;height:400px;overflow:hidden;position:absolute;top:0px;right:-400px;display:none;z-index:10;border:1px solid #ddd;}
+.tab_main .inner #amplification img{position:absolute;}
+
+.tab_main .inner .middle{width:588px;float:left;}
+.tab_main .inner .middle .title{padding:15px 75px 10px 0;position:relative;z-index:10;}
+.tab_main .inner .middle .title h2{color:#666;font-size:16px;line-height:24px;}
+.tab_main .inner .middle .title p{color:#e3393c;font-size:14px;line-height:20px;}
+.tab_main .middle .title a{display:block;width:52px;height:22px;line-height:22px;position:absolute;background:#f5f5f5;border:1px solid #dddddd;top:20px;right:0px;color:#323232;text-align:center;font-size:12px;cursor:pointer;}
+.tab_main .inner .middle .cost{height:200px;border-bottom:1px dashed #ddd;}
+.tab_main .inner .cost .top{background:#f7f7f7;position:relative;}
+.tab_main .inner .cost .top .price{padding-top:10px;}
+.tab_main .inner .cost .top .price h2{height:30px;line-height:30px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;}
+.tab_main .inner .cost .top .price h2 span{font-size:20px;line-height:30px;display:inline-block;vertical-align:middle;color:#e4393c;font-family:Arial,Verdana;font-weight:bolder;}
+.tab_main .inner .cost .top .price h2 a{color:#666;font-size:12px;line-height:30px;display:inline-block;vertical-align:middle;}
+.tab_main .inner .cost .top .price h2 a:hover{color:#e4393c;}
+.tab_main .inner .cost .top .msg{padding-top:4px;}
+.tab_main .inner .cost .top .msg h2{float:left;height:30px;line-height:30px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;margin-right:8px;}
+.tab_main .inner .cost .top .msg ul{float:left;width:425px;}
+.tab_main .inner .cost .top .msg ul li p{line-height:30px;color:#e4393c;font-size:12px;}
+.tab_main .inner .cost .top .msg ul li p em{font-style:normal;color:#fff;background:#e4393c;line-height:12px;display:inline-block;font-size:12px;margin-right:8px;padding:1px 2px;}
+.tab_main .inner .cost .top .msg ul li p a{color:#666;font-size:12px;line-height:12px;display:inline-block;font-family:simsun;padding-left:5px;}
+.tab_main .inner .cost .top .msg ul li p a:hover{color:#e4393c;}
+.tab_main .inner .cost .top .sub{text-align:center;width:68px;height:33px;border-left:1px solid #e6e6e6;position:absolute;top:10px;right:5px;}
+.tab_main .inner .cost .top .sub p{color:#999;font-size:12px;line-height:15px;}
+.tab_main .inner .cost .top .sub a{display:block;color:#005ea7;font-family:verdana;font-size:14px;}
+.tab_main .inner .cost .bottom .support{margin :10px 0 6px;}
+.tab_main .inner .cost .bottom .support h2{height:20px;line-height:20px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;width:60px;float:left;} 		
+.tab_main .inner .cost .bottom .support a{display:block;float:left;height:20px;line-height:20px;color:#e4393c;font-size:13px;font-family:"microsoft yahei";position:relative;padding-left:2px;}
+.tab_main .inner .cost .bottom .address{}
+.tab_main .inner .cost .bottom .address h2{height:27px;line-height:27px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;width:60px;float:left;}
+.tab_main .inner .cost .bottom .address .select{float:left;width:425px;}
+.tab_main .inner .cost .bottom .address .select span{display:inline-block;border:1px solid #CECBCE;padding:0 20px 0 4px;height:23px;line-height:23px;font-size:12px;color:#666;position:relative;}
+.tab_main .cost .bottom .address .select span i{height:18px;width:17px;position:absolute;top:5px;right:0px;background:url(../images/newicon20140910.png) -264px -193px;display:block;}
+.tab_main .cost .bottom .address .select p{margin-top:4px;color:#666;font-size:12px;line-height:28px;}
+.tab_main .cost .bottom .address .select p strong{font-size:14px;font-family:"\5b8b\4f53"}
+.tab_main .cost .bottom .address .select p a{color:#666;font-size:12px;line-height:28px;}
+.tab_main .cost .bottom .address .select p a:hover{color:#e4393c;}
+.tab_main .cost .bottom .serve h2{height:30px;line-height:30px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;width:60px;float:left;}
+.tab_main .cost .bottom .serve p{height:30px;line-height:30px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;width:425px;float:left;}
+.tab_main .middle #g_size{margin-top:10px;}
+.tab_main .middle #g_size h2{height:42px;line-height:42px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;width:60px;float:left;padding-top:2px;}
+.tab_main .middle #g_size ul{float:left;padding-top:7px;}
+.tab_main .middle #g_size ul li{float:left;margin-right:8px;position:relative;}
+.tab_main .middle #g_size ul li a{display:block;;font-size:12px;line-height:16px;padding:5px 6px;border:1px solid #cccccc;color:#666;}
+.tab_main .middle #g_size ul li.hover a{padding:4px 5px;border:2px solid #e4393c;}
+.tab_main .middle #g_size ul li.hover i{position:absolute;bottom:0px;right:0px;width:15px;height:15px;display:block;background:url(../images/newicon20140910.png) -199px -222px no-repeat;}
+.tab_main .middle #insure h2{height:42px;line-height:42px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;width:60px;float:left;padding-top:2px;}
+.tab_main .middle #insure ul{float:left;padding-top:7px;width:500px;}
+.tab_main .middle #insure ul li{float:left;margin-right:8px;position:relative;margin-bottom:5px;}
+.tab_main .middle #insure ul li a{display:block;;font-size:12px;line-height:16px;padding:5px 8px 5px 6px;border:1px solid #cccccc;color:#666;position:relative;}
+.tab_main .middle #insure ul li.hover a{padding:4px 7px 4px 5px;;border:2px solid #e4393c;}
+.tab_main .middle #insure ul li a span{margin-right:4px;}
+.tab_main .middle #insure ul li a span img{float:left;width:16px;}
+.tab_main .middle #insure ul li.hover i{position:absolute;bottom:0px;right:0px;width:15px;height:15px;display:block;background:url(../images/newicon20140910.png) -199px -222px no-repeat;}
+.tab_main .middle #loan h2{height:42px;line-height:42px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;width:60px;float:left;padding-top:2px;} 
+.tab_main .middle #loan ul{float:left;padding-top:7px;}
+.tab_main .middle #loan ul li{float:left;margin-right:8px;position:relative;}
+.tab_main .middle #loan ul li a{display:block;;font-size:12px;line-height:16px;padding:5px 6px;border:1px solid #cccccc;color:#666;}
+.tab_main .middle #loan ul li.hover a{padding:4px 5px;border:2px solid #e4393c;}
+.tab_main .middle #loan ul li.hover i{position:absolute;bottom:0px;right:0px;width:15px;height:15px;display:block;background:url(../images/newicon20140910.png) -199px -222px no-repeat;}
+.tab_main .middle #loan .baitiao_icon{float:left;margin-top:10px;}
+.tab_main .middle #loan .baitiao_icon img{vertical-align: middle;}
+.tab_main .middle #loan .baitiao_tips{float:left;height:32px;margin-left:5px;margin-top:11px;}
+.tab_main .middle #loan .baitiao_tips a{display: block;width: 18px;height: 18px;background: url(../images/newicon20140910.png) no-repeat -132px -292px;vertical-align: middle;}
+.tab_main .middle #shop_num{margin-top:18px;margin-bottom:11px;height:36px;}
+.tab_main .middle #shop_num form{position:relative;width:35px;margin:0 26px 0 10px;float:left;}
+.tab_main .middle #shop_num form input{width:33px;height:34px;line-height:34px;border:1px solid #ccc;text-align:center;color:#000;}
+.tab_main .middle #shop_num form .button_one{background:#f1f1f1;border:1px solid #ccc;border-left:none;width:15px;height:19px;color:#000;position:absolute;top:0px;right:-15px;padding-left:3px;}
+.tab_main .middle #shop_num form .button_two{background:#f1f1f1;border:1px solid #ccc;border-left:none;border-top:none;width:15px;height:17px;color:#ccc;position:absolute;bottom:0px;right:-15px;padding-left:5px;}
+.tab_main .middle #shop_num .pic{width:135px;height:36px;background:url(../images/p-btns.png) no-repeat -157px 0;float:left;display:block;}
+.tab_main .middle .tips{}
+.tab_main .middle .tips h2{height:30px;line-height:30px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-left:12px;width:60px;float:left;}
+.tab_main .middle .tips ul li{height:30px;line-height:30px;font-size:12px;color:#666;font-family:simsun;font-weight:normal;padding-right:12px;float:left;}
+
+.tab_main .inner .right{float:left;width:200px;padding:0 22px;}
+.tab_main .right .title{border-bottom:1px solid #eee;border-top:1px solid #eee;margin-top:20px;display:block;}
+.tab_main .right .title img{margin:10px 0 4px 10px;}
+.tab_main .right .tex{padding-left:9px;}
+.tab_main .right .tex h2{padding:3px;display:inline-block;background:#e4393c;font-size:12px;color:#fff;font-weight:normal;border-radius:3px;margin-top:16px;margin-bottom:18px;}
+.tab_main .right .tex ul{margin-left:-7px;}
+.tab_main .right .tex ul li {float:left;}   
+.tab_main .right .tex ul li a{width:90px;height:28px;line-height:30px;padding:0 0 0 3px;border:1px solid #cdcdcd;background:#f9f9f9;color:#666;font-size:12px;display:block;}
+.tab_main .right .tex ul li a i{display:inline-block;width:17px;height: 18px; margin-right: 5px;background:url(../images/popScore.png) no-repeat;vertical-align: -4px;}
+.tab_main .right .tex ul li.one a{margin-right:7px;}
+.tab_main .right .tex ul li.one a i{background-position:-52px 0;}
+.tab_main .right .tex ul li.two a i{background-position:-130px 0;}
+ 
+
+.tabs{margin-bottom:100px;height:248px;}
+.tabs .inner{background:url(../images/tab.png) 0 -41px repeat-x;min-height:200px;border-left:1px solid #dddddd;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.tabs .inner #subnav ul{padding:2px;margin-left:-3px;}
+.tabs .inner #subnav ul li{float:left;}
+.tabs .inner #subnav ul li a{height:29px;line-height:29px;padding:0 12px;border-left:1px solid #ddd;color:#666;font-size:14px;display:block;}
+.tabs .inner #subnav ul li a.two{border-right:1px solid #ddd;}
+.tabs .inner #subnav ul li:hover{}
+.tabs .inner #subnav ul li.hover a{height:34px;line-height:34px;padding:0 12px;border-left:1px solid #ddd;border-right: 1px solid #ddd;color:#e4393c;font-size:14px;background:#FFFFFF;border-top:2px solid #e4393c;margin-top:-6px;margin-right:-1px;}
+
+.tabs #sel #sel_1_title{margin:10px 0 25px 0;}
+.tabs #sel #sel_1_title li{float:left;}
+.tabs #sel #sel_1_title li a{height:16px;line-height:16px;font-size:12px;color:#005aa0;padding:0 15px;border-right:1px solid #d4d1c8;}
+.tabs #sel #sel_1_title #sel_1_title_last a{border:none;}
+.tabs #sel #sel_1_title li.hover a{color:#e4393c;}
+.tabs #sel #sel_1_box li{display:none;margin-bottom:10px;}
+.tabs #sel #sel_1_box #sel_1_box_frist{display:block;}
+.tabs #sel_1_box li .sel1_1 .master{width:160px;float:left;padding-left:10px;}
+.tabs #sel_1_box li .sel1_1 .master .sel1_1_pic{padding:5px 0 5px 10px;position:relative;}
+.tabs #sel_1_box li .sel1_1 .master .sel1_1_pic i{position:absolute;top:40px;right:3px;width:24px;height:22px;background:url(../images/newicon20140910.png) no-repeat 0 -260px;}
+.tabs #sel_1_box li .sel1_1 .master .sel1_1_name a{font-size:12px;color:#666;width:100px;height:34px;display:block;overflow:hidden;padding:0 13px;line-height:17px;font-family:"微软雅黑";}
+.tabs #sel_1_box li .sel1_1 .master .sel1_1_name a:hover{color:#e4393c;}
+.tabs #sel_1_box li .sel1_1 .left{float:left;min-width:500px;}
+.tabs #sel_1_box li .sel1_1 .left .sel1_1_pic{padding:5px 0 5px 10px;position:relative;}
+.tabs #sel_1_box li .sel1_1 .left .sel1_1_name a{font-size:12px;color:#666;width:100px;height:34px;display:block;overflow:hidden;padding:0 13px;line-height:17px;font-family:"微软雅黑";}
+.tabs #sel_1_box li .sel1_1 .left .sel1_1_name a:hover{color:#e4393c;}
+.tabs #sel_1_box li .sel1_1 .right{float:right;width:190px;position:relative;}
+.tabs #sel_1_box li .sel1_1 .right .text{margin-left:35px;}
+.tabs #sel_1_box li .sel1_1 .right i{position:absolute;top:40px;left:-6px;width:24px;height:22px;background:url(../images/newicon20140910.png) no-repeat -31px -260px;}
+.tabs #sel_1_box .sel1_1 .text h2{height:35px;}
+.tabs #sel_1_box .sel1_1 .text a{color:#005AA0;font-size:12px;float:left;max-width:140px;}
+.tabs #sel_1_box .sel1_1 .text p{height:20px;font-size:12px;color:#999;}
+.tabs #sel_1_box .sel1_1 .text p span.hover{color:#E4393C;}
+.tabs #sel_1_box .sel1_1 .text p span.hua{text-decoration:line-through;}
+.tabs #sel_1_box .sel1_1 .text h3{margin-top:10px;}
+.tabs #sel_1_box .sel1_1 .text h3 a{display:block;height:25px;width:64px;padding-left:13px;background:#e53e41;border-radius:3px;color:#fff;font-size:12px;line-height:25px;}
+
+.tabs #sel .sel2 ul{}
+.tabs #sel .sel2 ul li{float:left;width:130px;height:190px;margin:10px 35px;}
+.tabs #sel .sel2 ul li .two_pic{padding:5px 0;}
+.tabs #sel .sel2 ul li .two_pic img{float:left;}
+.tabs #sel .sel2 ul li .tow_txt a{font-size:12px;color:#666;width:130px;height:34px;display:block;overflow:hidden;line-height:17px;font-family:"微软雅黑";}
+.tabs #sel .sel2 ul li .tow_txt a:hover{color:#e4393c;} 
+.tabs #sel .sel2 ul li .tow_txt a:hover{color:#e4393c;}
+.tabs #sel .sel2 ul li .two_price{text-align:center;}
+.tabs #sel .sel2 ul li .two_price strong{color:#e4393c;font:12px/150% Arial;}
